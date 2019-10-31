@@ -27,7 +27,7 @@ get '/' do
     end
 
     rescue HTTParty::Error
-      { error: "Error occured. Try again later." }.to_json
+      { error: "Error occurred. Try again later." }.to_json
     rescue StandardError
       { error: "Connection error. Try again later." }.to_json
     end
