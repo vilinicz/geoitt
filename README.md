@@ -18,7 +18,7 @@ localhost:4567/?address=Prague
 ```
 ___
 Made with:
- - Sinatra - was interesting to try it, and it seems to be better solution (then Rails) for small one-endpoint microservice.
+ - Sinatra - was interesting to try it, and it seems to be better solution (than Rails) for small one-endpoint microservice.
  - Hands
 
 Time consumed:
