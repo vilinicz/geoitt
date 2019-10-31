@@ -31,7 +31,7 @@ App receives GET request with one param and  returns:
 
 There are no genius archictural decisions due to simplicity of task. However we can make it better:
 1) use Geocoder gem and free our mind :)
-2) extract external API calls to more configurable class/module
+2) Decouple code into separate methods: for errors, for success. Extract external API calls to more configurable class/module
 3) store ACCESS_TOKEN and maybe LOCATIONIQ_URI in environment (.env), not directly in code (that's not safe)
 
 
